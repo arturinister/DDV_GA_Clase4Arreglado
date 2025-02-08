@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Formularios</title>
+</head>
+
+<body>
+    <h1>Formularios</h1>
+    <form>
+        Email: <input type="text" id="email" name="email" size="70" value="usuario@dominio.com" />
+        <br>
+        Contraseña: <input type="password" id="clave" name="clave" size="50" />
+
+        <h2>Checkbox</h2>
+        <input type="checkbox" id="condiciones" name="condiciones" />Está de acuerdo c
+        on las condiciones explicadas más arriba.
+
+        <br><br>
+        Tecnologías Web <br>
+        <input type="checkbox" name="lenguaje" value="html">HTML
+        <input type="checkbox" name="lenguaje" value="javascript">Javascript
+        <input type="checkbox" name="lenguaje" value="css">CSS
+        <input type="checkbox" name="lenguaje" value="xml">XML
+
+        <h2>Radio</h2>
+
+        <input type="radio" id="menos18" value="menos18" name="edad" />Menos de 18
+        <input type="radio" id="18a30" value="18a30" name="edad" />18 a 30
+        <input type="radio" id="31a50" value="31a50" name="edad" />31 a 50
+        <input type="radio" id="mas50" value="mas50" name="edad" />Más de 50
+
+
+        <h2>textarea</h2>
+        <textarea rows="10" cols="50" name="comentario">Escribir comentario...</textarea>
+
+        <h2>Combo de Selecciones</h2>
+
+        <select>
+            <option>Arsenal</option>
+            <option>Chelsea</option>
+            <option>Everton</option>
+            <option>Liverpool</option>
+            <option>Manchester United</option>
+        </select>
+
+        <br><br><br>
+
+        <select name="ciudad">
+            <optgroup label="Europa">
+                <option>Madrid</option>
+                <option>Londres</option>
+                <option>Paris</option>
+            </optgroup>
+            <optgroup label="América">
+                <option>San Salvador</option>
+                <option>Sao Paulo</option>
+                <option>Lima</option>
+                <option>Los Angeles</option>
+            </optgroup>
+            <optgroup label="Africa">
+                <option>Casablanca</option>
+                <option>Ciudad del Cabo</option>
+            </optgroup>
+        </select> 
+
+        <h2>Botones</h2>
+        <button name="Enviar" type="TipoBoton" value="ValorBoton">Enviar Datos</button>
+        <input type="reset" value="Limpiar"/>
+
+    </form>
+</body>
+
+</html>
